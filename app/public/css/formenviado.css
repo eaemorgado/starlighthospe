@@ -1,0 +1,27 @@
+body {
+    background-color: #440334;
+    
+}
+
+main h1{
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #ffff;
+}
+
+main button {
+    background-color: #ec7d10;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    height: 35px;
+    width: 150px;
+    border-radius: 18px;
+    margin-top: 10px;
+
+}
+
+main {
+    padding: 20%;
+}

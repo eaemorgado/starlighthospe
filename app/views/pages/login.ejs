@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Starlight</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <!--Area superior / espaço redes sociais e user-->
+        <div id="superior">
+           <a href="https://www.instagram.com/starlight_lgbt/" target="_blank"><img src="img/instagram.png" alt="instagram" id="iconh"></a>
+          <a href="https://www.twitter.com/starlight_lgbt/" target="_blank"><img src="img/twitter.png" alt="twitter" id="iconh"></a>
+          <a href="https://www.pinterest.com/starlightsitelgbt/" target="_blank"><img src="img/pinterest.png" alt="pinterest" id="iconh"></a>
+          <a href="/login"><img src="img/user.png" alt="user-icon" id="iconu"></a>
+        </div>
+        <a href="/"><img src="img/logo.png" alt="logo" id="logo"></a>
+        <hr>
+    </header>
+    <main>
+        <div class="area-login">   
+            <h1 id="txt-login">Faça login ou cadastre-se</h1>
+            <h3>Não tem uma conta?</h3>
+            <a href="/cadastro"><h3>Inscreva-se</h3></a>
+
+            <form action="/login" method="post">
+                <div class="email">
+                    <h3 id="txt-email">E-mail</h3>
+                    <input type="text" id="escrita" name="email" value="" onfocus="this.value='';">
+                    <label for="E-mail"></label>
+                </div>
+    
+                <div class="senha">
+                    <h3 id="txt-senha">Senha</h3>
+                    <input type="password" id="escrita" name="senha" onfocus="this.value='';">
+                    <label for="Senha"></label>
+                </div>
+
+                <input type="submit" value="Entrar" id="entrar">
+            </form>
+            
+            
+            
+            <div class="termos">
+                <input type="checkbox" id="box">
+                <h2 id="senha-termos">Lembrar Senha</h2>
+                <h2 id="esqueci-senha">Esquecu a senha?</h2>
+            </div>
+
+        
+            
+            <input type="submit" value="Entrar" id="entrar">
+    
+        </div>
+
+    </main>
+    <footer>
+        <div id="footer-sociais">
+            <a href="https://www.instagram.com/starlight_lgbt/" target="_blank"><img src="img/instagram.png" alt="instagram" id="iconf"></a>
+            <a href="https://www.twitter.com/starlight_lgbt/" target="_blank"><img src="img/twitter.png" alt="twitter" id="iconf"></a>
+            <a href="https://www.pinterest.com/starlightsitelgbt/" target="_blank"><img src="img/pinterest.png" alt="pinterest" id="iconf"></a>
+          </div>
+          <div id="links">
+            <a href="home"><h2>Home</h2></a>
+            <a href="anuncia"><h2>Anuncia</h2></a>
+            <a href="sobre nós"><h2>Sobre nós</h2></a>
+            <a href="fale conosco"><h2>Fale conosco</h2></a>
+          </div>
+          
+          <img src="img/logo.png" alt=""  id="logo">
+          
+    </footer>
+</body>
+</html>

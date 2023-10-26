@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+
+
+#espaco-ajuda {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+#espaco-ajuda-art h2 {
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#espaco-ajuda-art p {
+    color: black;
+    margin-top: 10px;
+    
+}
+
+#img-ajuda {
+    height: 100px;
+    margin: 20px;
+}

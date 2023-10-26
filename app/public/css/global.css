@@ -1,0 +1,234 @@
+/* fonts usadas no projeto! não apagar */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+@media (min-width: 320px) and (max-width: 480px){ 
+    
+    #logo {
+        display: block;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        
+        
+    }
+
+    #button-nav {
+        height: 45px;
+        width: 100%;
+        border: 0px;
+        background-color: #EC0868;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: medium;
+        
+    
+    
+    
+    }
+    /* configurações do nav*/
+    nav {
+        background-color: #EC0868;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        margin-left: -5%;
+        
+        
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 700px){ 
+  
+    #logo {
+        display: block;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        
+        
+    }
+
+    #button-nav {
+        height: 45px;
+        width: 100%;
+        border: 0px;
+        background-color: #EC0868;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: medium;
+        
+    
+    
+    
+    }
+    /* configurações do nav*/
+    nav {
+        background-color: #EC0868;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        
+        
+    }
+
+
+}
+
+@media (min-width: 700px) { 
+ 
+    #logo {
+        display: block;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        
+        
+    }
+
+    #button-nav {
+        height: 45px;
+        width: 100%;
+        border: 0px;
+        background-color: #EC0868;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: medium;
+        
+    
+    
+    
+    }
+    /* configurações do nav*/
+    nav {
+        background-color: #EC0868;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        
+        
+    }
+
+}
+
+/* configuração do header*/
+
+
+
+header {
+    background-color: #440334;
+}
+
+
+/*area icones de rede social*/
+
+
+
+#iconh {
+    height: 32px;
+    margin: 10px;
+    
+}
+
+#iconh:hover {
+    transform: scale(110%);
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#iconu {
+    height: 32px;
+    margin: 10px;
+    right: 0;
+    position: absolute;
+}
+
+#iconu:hover {
+    transform: scale(110%);
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+#iconf {
+    height: 32px;
+    margin: 10px;
+
+    
+}
+
+#iconf:hover {
+    transform: scale(110%);
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* configurações do footer */
+
+
+#footer-sociais {
+    margin-top: 10px;
+    background-image: url(/img/fundo.png);
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer {
+    background-color: #EC0868;
+    height: 400px;
+  }
+  
+  body footer h2 {
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  
+  /*configuração da linha inferior azul dos links*/
+  a {
+    text-decoration: none;
+   }
+
+   #area-painel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   #button-painel {
+        height: 50px;
+        width: 200px;
+        margin: 10px;
+        border: none;
+        background-color: #440334;
+        color: white;
+        border-radius: 18px;
+   }
+
+   #area-tpainel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+   }
+
+   #tpainel {
+    
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #440334;
+    margin: 20px;
+   }
+
+   #area-tpainel span{
+    font-family: 'Roboto', sans-serif;
+   }
+
+   

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home - Starlight</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    
+    
+</head>
+<body>
+    <header>
+        <!--Area superior / espaço redes sociais e user-->
+        <div id="superior">
+          <a href="https://www.instagram.com/starlight_lgbt/" target="_blank"><img src="img/instagram.png" alt="instagram" id="iconh"></a>
+          <a href="https://www.twitter.com/starlight_lgbt/" target="_blank"><img src="img/twitter.png" alt="twitter" id="iconh"></a>
+          <a href="https://www.pinterest.com/starlightsitelgbt/" target="_blank"><img src="img/pinterest.png" alt="pinterest" id="iconh"></a>
+          <a href="/login"><img src="img/user.png" alt="user-icon" id="iconu"></a>
+        </div>
+        <a href="/home"><img src="img/logo.png" alt="logo" id="logo"></a>
+
+        <nav>
+          <a href="/comoajudar"><button id="button-nav">Como ajudar</button></a>
+          <a href="/loja"><button id="button-nav">Loja</button></a>
+          <a href="/sobre"><button id="button-nav">Sobre nós</button></a>
+        </nav>
+
+    </header>
+    
+    <main>
+        <h2>Adicionar Notícia</h2>
+        <form action="/adicionar" method="post">
+            <label for="tnoticia">Titulo da Notícia</label> <br>
+            <input type="text" name="titulo_noticia" id="tnoticia"> <br>
+            <label for="nassunto">Noticia</label> <br>
+            <input type="text" name="descricao_noticia" id="nassunto"> <br>
+            <label for="data">Data da Noticia</label> <br>
+            <input type="date" name="data_noticia" id="data"> <br>
+            <select name="situacao_noticia" id="situacao">
+                <option value="1">Publico</option>
+                <option value="2">Privado</option>
+            </select>
+
+            <input type="submit" value="Adicionar">
+        </form>
+        
+    </main>
+    <footer>
+      <div id="footer-sociais">
+        <a href="https://www.instagram.com/starlight_lgbt/" target="_blank"><img src="img/instagram.png" alt="instagram" id="iconf"></a>
+        <a href="https://www.twitter.com/starlight_lgbt/" target="_blank"><img src="img/twitter.png" alt="twitter" id="iconf"></a>
+        <a href="https://www.pinterest.com/starlightsitelgbt/" target="_blank"><img src="img/pinterest.png" alt="pinterest" id="iconf"></a>
+      </div>
+      <div id="links">
+        <a href="/home"><h2>Home</h2></a>
+        <a href="/anunciar"><h2>Anunciar</h2></a>
+        <a href="/sobre nós"><h2>Sobre nós</h2></a>
+        <a href="/fale conosco"><h2>Fale conosco</h2></a>
+      </div>
+      
+      <img src="img/logo.png" alt=""  id="logo">
+      
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

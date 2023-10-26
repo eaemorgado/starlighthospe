@@ -1,0 +1,187 @@
+
+
+
+
+/* area de configuração das sessões*/
+
+body {
+    background-color: #440334;
+    font-family: 'Roboto', sans-serif;
+}
+
+#adicione {
+    text-align: center;
+    color: #fff;
+    font-size: x-large;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#artigos {
+    margin-top: 20px;
+    background-color: #440334;
+    height: 585px;
+    width: auto;
+}
+
+/* configurações dos artigos*/
+
+#area-anuncio {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    font-weight: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+#noticias {
+    color: rgb(204, 153, 13);
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+#restaurantes {
+    color: rgb(204, 74, 13);
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+#eventos {
+    color: rgb(204, 13, 124);
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+    #parcerias {
+    color: rgb(112, 13, 204);
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+
+#img-noticias {
+    height: 100px;
+
+}
+
+body main section div h2 {
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+#barra {
+    margin-top: 20px;
+}
+
+body main section hr {
+    background-color: #440334;
+}
+
+/*configurações do carrossel estatico*/
+
+#carrossel {
+    margin-top: 20px;
+
+}
+#img-carrossel {
+    width: 100%;
+}
+
+#button-carrossel {
+    color: #440334;
+    margin-left: 150px;
+}
+
+/* area de chat */
+
+#comentario {
+    background-color: white;
+}
+
+#coment {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 163, 1);
+    margin: 10px;
+    padding: 20px;
+    color: #fff;
+    
+}
+
+#user-name{
+    margin-top: 15px;
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text-coment {
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+#mais-comentarios {
+    color: #EC0868;
+    text-align: right;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 10px;
+}
+
+/* Area de adicionar comentario*/
+
+.add-comentario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+.add-comentario form h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+  
+  #txt-comentario {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  #adicionar-comentario {
+    width: 300px;
+    height: 70px;
+  }
+
+  

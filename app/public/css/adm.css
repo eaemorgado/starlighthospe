@@ -1,0 +1,30 @@
+body{
+    background-color: white;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Outfit', sans-serif;
+}
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+h1{
+        color: #EC0868;
+        text-align: center;
+
+}

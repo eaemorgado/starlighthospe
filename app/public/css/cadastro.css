@@ -1,0 +1,124 @@
+body {
+    background-color: #ffff;
+}
+
+main {
+  background-image: url(/img/fundo.png);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.area-login {
+    width: 322px;
+    height: 520px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: rgb(121, 121, 121);
+    margin: 0 auto;
+
+  }
+
+  #escrita {
+    width: 275px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: none;
+    background-color: #EC0868;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+
+  #entrar {
+    background-color: #EC7D10;
+    color: white;
+    width: 275px;
+    height: 42.15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 0px;
+   
+    
+  }
+
+  #box {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    border: 0px;
+  }
+  
+  .termos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  
+  #txt-login {
+    color: #EC0868;
+    font-size: x-large;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  #button-social {
+    background-color: #EC0868;
+    color: white;
+    width: 275px;
+    height: 42.15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    padding: 15px;
+  }
+  #button-social-facebook {
+    background-color: #EC7D10;
+    color: white;
+    width: 275px;
+    height: 42.15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    padding: 15px;
+  }
+  
+  #icon {
+    margin-left: 80px;
+    margin-right: 10px;
+  }
+
+  #txt-politica {
+    margin: 15px;
+
+  }
+
+  #politicaprivlink {
+    text-decoration: none;
+  }
+
+  p {
+    margin-top: 10px;
+  }

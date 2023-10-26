@@ -1,0 +1,9 @@
+section {
+    padding: 13%;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    line-height: 30px;
+}

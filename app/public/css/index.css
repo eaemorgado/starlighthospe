@@ -1,0 +1,462 @@
+
+@media (min-width: 320px) and (max-width: 480px){ 
+    
+    /* area de comentarios */
+    #comments, #comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    }
+
+    #comments h2 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #440334;
+    margin: 20px;
+    }
+
+    #name {
+    border: none;
+    background-color: #ececec;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    margin-top: 20px;
+
+    }
+
+    #comment {
+    border: none;
+    background-color: #ececec;
+    border-radius: 10px;
+    height: 60px;
+    width: 250px;
+    margin: 10px
+
+    }
+
+    #button-comment {
+    background-color: #ec7d10;
+    color: #ececec;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 250px;
+    margin-bottom: 40p;
+    }
+
+    /* configurações dos artigos*/
+
+    #area-anuncio {
+        font-size:small;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: #440334;
+        padding: 50px;
+        text-align: center;
+        font-weight: 1000;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    #noticias {
+        color: rgb(204, 153, 13);
+        font-size:medium;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    #noticias:hover {
+        transform: scale(102%);
+        transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    #restaurantes {
+        color: rgb(204, 74, 13);
+        font-size:medium;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    #restaurantes:hover {
+        transform: scale(102%);
+        transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    #eventos {
+        color: rgb(204, 13, 124);
+        font-size:medium;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    #eventos:hover {
+        transform: scale(102%);
+        transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    #img-noticias {
+        height: 65px;
+    
+    }
+
+    body main section div h2 {
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+@media (min-width: 481px) and (max-width: 700px){ 
+    
+    /* area de comentarios */
+    #comments, #comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    }
+
+    #comments h2 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #440334;
+    margin: 20px;
+    }
+
+    #name {
+    border: none;
+    background-color: #ececec;
+    border-radius: 10px;
+    height: 30px;
+    width: 400px;
+    margin-top: 20px;
+
+    }
+
+    #comment {
+    border: none;
+    background-color: #ececec;
+    border-radius: 10px;
+    height: 60px;
+    width: 400px;
+    margin: 10px
+
+    }
+
+    #button-comment {
+    background-color: #ec7d10;
+    color: #ececec;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 250px;
+    margin-bottom: 40p;
+    }
+
+    /* configurações dos artigos*/
+
+    #area-anuncio {
+        font-size: x-large;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: #440334;
+        padding: 50px;
+        text-align: center;
+        font-weight: 1000;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    #noticias {
+        color: rgb(204, 153, 13);
+        font-size: x-large;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    #noticias:hover {
+        transform: scale(102%);
+        transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    #restaurantes {
+        color: rgb(204, 74, 13);
+        font-size: x-large;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    #restaurantes:hover {
+        transform: scale(102%);
+        transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    #eventos {
+        color: rgb(204, 13, 124);
+        font-size: x-large;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    #eventos:hover {
+        transform: scale(102%);
+        transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    #img-noticias {
+        height: 100px;
+    
+    }
+
+    body main section div h2 {
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+
+
+
+
+}
+
+@media (min-width: 700px) { 
+    
+    /* area de comentarios */
+    #comments, #comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    }
+
+    #comments h2 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #440334;
+    margin: 20px;
+    }
+
+    #name {
+    border: none;
+    background-color: #ececec;
+    border-radius: 10px;
+    height: 40px;
+    width: 600px;
+    margin-top: 20px;
+
+    }
+
+    #comment {
+    border: none;
+    background-color: #ececec;
+    border-radius: 10px;
+    height: 80px;
+    width: 600px;
+    margin: 10px
+
+    }
+
+    #button-comment {
+    background-color: #ec7d10;
+    color: #ececec;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 600px;
+    margin-bottom: 40p;
+    }
+
+    /* configurações dos artigos*/
+
+    #area-anuncio {
+        font-size: x-large;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: #440334;
+        padding: 50px;
+        text-align: center;
+        font-weight: 1000;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    #noticias {
+        color: rgb(204, 153, 13);
+        font-size: x-large;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    #noticias:hover {
+        transform: scale(102%);
+        transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    #restaurantes {
+        color: rgb(204, 74, 13);
+        font-size: x-large;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    #restaurantes:hover {
+        transform: scale(102%);
+        transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    #eventos {
+        color: rgb(204, 13, 124);
+        font-size: x-large;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 20px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    #eventos:hover {
+        transform: scale(102%);
+        transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+
+    #img-noticias {
+        height: 100px;
+    
+    }
+
+    body main section div h2 {
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+/* carrossel */
+
+
+
+
+
+
+
+
+
+/* area de configuração das sessões*/
+
+#artigos {
+    margin-top: 20px;
+    background-image: url(/img/fundo.png);
+    height: 585px;
+    width: auto;
+}
+
+
+    #parcerias {
+    color: rgb(112, 13, 204);
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+#parcerias:hover {
+    transform: scale(102%);
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+
+
+
+
+#barra {
+    margin-top: 20px;
+}
+
+body main section hr {
+    background-color: #440334;
+}
+
+/*configurações do carrossel estatico*/
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    transition: transform 1s ease-in-out;
+}
+  

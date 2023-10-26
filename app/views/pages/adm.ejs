@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home - Starlight</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/adm.css">
+    
+    
+</head>
+<body>
+    <header>
+        <!--Area superior / espaço redes sociais e user-->
+        <div id="superior">
+          <a href="https://www.instagram.com/starlight_lgbt/" target="_blank"><img src="img/instagram.png" alt="instagram" id="iconh"></a>
+          <a href="https://www.twitter.com/starlight_lgbt/" target="_blank"><img src="img/twitter.png" alt="twitter" id="iconh"></a>
+          <a href="https://www.pinterest.com/starlightsitelgbt/" target="_blank"><img src="img/pinterest.png" alt="pinterest" id="iconh"></a>
+          <a href="/login"><img src="img/user.png" alt="user-icon" id="iconu"></a>
+        </div>
+        <a href="/home"><img src="img/logo.png" alt="logo" id="logo"></a>
+    </header>
+    
+
+    <span>Olá <%= autenticado.autenticado %>!</span><br>
+    <h1>Painel Administrativo</h1>
+    <table>
+        <thead>
+            <tr>
+                <!-- <th>ID de Usuário</th> -->
+                <th>Nome</th>
+                <th>email</th>
+                <th>tipo</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% usuarios.forEach(function(usuario){ %>
+
+            <tr> 
+                <td><%=usuario.nome %></td>
+                <td><%=usuario.email%></td>
+                <td><%=usuario.id_tipo_usuario %></td>
+                <td>
+                    <button onclick="<%=" window.location='/excluir/"+ usuario.id %>'" >
+                        delete
+                    </button>
+                </td>
+                
+            
+                
+            </tr>
+           <% }); %>
+        </tbody>
+    </table>
+
+    <% 
+    if(paginador){ 
+        %>
+
+        <div class="notificador">
+            <ul>
+                <%
+        for(var i=1; i <= paginador.total_paginas; i++){ 
+            if(paginador.pagina_atual==i){ 
+                %>
+                <li><a class="atual" href="?pagina=<%= i %>"> <%= i %> </a></li>
+            <%
+            } else {
+            %>    
+                <li><a href="?pagina=<%= i %>"> <%= i %> </a></li>
+            <%
+            }
+        }
+        %>
+    </ul>
+</div>
+<%
+    }
+        %>
+    
+    <footer>
+      <div id="footer-sociais">
+        <a href="https://www.instagram.com/starlight_lgbt/" target="_blank"><img src="img/instagram.png" alt="instagram" id="iconf"></a>
+        <a href="https://www.twitter.com/starlight_lgbt/" target="_blank"><img src="img/twitter.png" alt="twitter" id="iconf"></a>
+        <a href="https://www.pinterest.com/starlightsitelgbt/" target="_blank"><img src="img/pinterest.png" alt="pinterest" id="iconf"></a>
+      </div>
+      <div id="links">
+        <a href="/home"><h2>Home</h2></a>
+        <a href="/anunciar"><h2>Anunciar</h2></a>
+        <a href="/sobre nós"><h2>Sobre nós</h2></a>
+        <a href="/fale conosco"><h2>Fale conosco</h2></a>
+      </div>
+      
+      <img src="img/logo.png" alt=""  id="logo">
+      
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
