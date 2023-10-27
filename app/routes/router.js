@@ -9,11 +9,11 @@ var salt = bcrypt.genSaltSync(10);
 
 
 const db = mysql.createConnection({
-    host: "starlight.mssql.somee.com",
-    user: "eaemorgado_SQLLogin_1",
-    password: "9hfynqcuh8",
-    database: "starlight  ",
-    port: 3333
+    host: "dpg-cktfaneb0mos73ept8mg-a",
+    user: "starlight_user",
+    password: "y5SwiPkE70qrECjDxVDMf37rh2SzlH4b",
+    database: "starlight",
+    port: 5432
   });
 
 
