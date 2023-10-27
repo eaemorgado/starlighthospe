@@ -16,12 +16,7 @@ const db = mysql.createConnection({
     port: 3333
   });
 
-  db.connect((err) => {
-    if (err) {
-      throw err;
-    }
-    console.log('Conectado ao MySQL');
-  });
+
 
 
   var { verificarUsuAutenticado, limparSessao, gravarUsuAutenticado, verificarUsuAutorizado } = require("../models/autenticador_middleware");
