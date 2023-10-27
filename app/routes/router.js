@@ -12,7 +12,7 @@ const db = mysql.createConnection({
     host: "roundhouse.proxy.rlwy.net",
     user: "root",
     password: "bDg3hd6BGAE6BaD3EdE13b13BBeG43H3",
-    database: "Tables",
+    database: "railway",
     port: 28025  
   });
 
