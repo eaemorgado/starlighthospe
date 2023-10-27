@@ -9,11 +9,11 @@ var salt = bcrypt.genSaltSync(10);
 
 
 const db = mysql.createConnection({
-    host: "roundhouse.proxy.rlwy.net",
-    user: "root",
-    password: "bDg3hd6BGAE6BaD3EdE13b13BBeG43H3",
-    database: "railway",
-    port: 28025  
+    host: "dpg-cktfaneb0mos73ept8mg-a",
+    user: "starlight_user",
+    password: "y5SwiPkE70qrECjDxVDMf37rh2SzlH4b",
+    database: "starlight",
+    port: 5432  
   });
 
 
