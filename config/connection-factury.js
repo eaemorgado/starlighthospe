@@ -2,7 +2,10 @@ var mysql = require("mysql");
 
 module.exports = function(){
  return mysql.createConnection({
-    host: "0.0.0.0",
-    port: 3333
+  host: "dpg-cktfaneb0mos73ept8mg-a",
+  user: "starlight_user",
+  password: "y5SwiPkE70qrECjDxVDMf37rh2SzlH4b",
+  database: "starlight",
+  port: 5432
   });
 }
