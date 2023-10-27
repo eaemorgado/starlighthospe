@@ -16,7 +16,7 @@ const db = mysql.createConnection({
     port: 5432
   });
 
-  const createConnection = `
+  const createTableQuery = `
 CREATE TABLE usuarios (
   id VARCHAR(255) primary key,
   nome VARCHAR(255),
@@ -44,9 +44,17 @@ CREATE TABLE noticia (
     
 );	
 
-    
+
 `;
 
+
+connection.query(createTableQuery, (err, result) => {
+  if (err) {
+    console.error(err);
+  } else {
+    console.log("Tabela criada com sucesso!");
+  }
+});
 
 
 
