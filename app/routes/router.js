@@ -52,7 +52,7 @@ const db = mysql.createConnection({
   // }
 
 
-  creatTables()
+  // creatTables()
 
 
 
