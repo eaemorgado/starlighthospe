@@ -17,39 +17,39 @@ const db = mysql.createConnection({
   });
 
 
-  async function creatTables(){
-    await db.connect()
+  // async function creatTables(){
+  //   await db.connect()
 
-    await db.query(`CREATE TABLE usuarios(
-      id varchar(200) primary key,
-      nome varchar(255) NOT NULL,
-      usuario varchar(50) NOT NULL,
-      email varchar(60) NOT NULL,
-      senha varchar(200) NOT NULL,
-      id_tipo_usuario int not null default '1'
-    )`)
+  //   await db.query(`CREATE TABLE usuarios(
+  //     id varchar(200) primary key,
+  //     nome varchar(255) NOT NULL,
+  //     usuario varchar(50) NOT NULL,
+  //     email varchar(60) NOT NULL,
+  //     senha varchar(200) NOT NULL,
+  //     id_tipo_usuario int not null default '1'
+  //   )`)
 
-    await db.query(`CREATE TABLE noticia(
-      id_noticia varchar(200) primary key,
-      titulo_noticia varchar(255) NOT NULL,
-      descricao_noticia varchar(250) NOT NULL,
-      data_noticia varchar(60) NOT NULL,
-      situacao_noticia varchar(200) NOT NULL
-    )`)
+  //   await db.query(`CREATE TABLE noticia(
+  //     id_noticia varchar(200) primary key,
+  //     titulo_noticia varchar(255) NOT NULL,
+  //     descricao_noticia varchar(250) NOT NULL,
+  //     data_noticia varchar(60) NOT NULL,
+  //     situacao_noticia varchar(200) NOT NULL
+  //   )`)
 
-    await db.query(`CREATE TABLE tipo_usuario(
-      id_tipo_usuario int not null auto_increment,
-      tipo_usuario varchar (25) default null,
-      inscricao_usuario varchar (155) default null,
-      status_tipo_usuario int default '1',
-      primary key (id_tipo_usuario)
-    )`)
+  //   await db.query(`CREATE TABLE tipo_usuario(
+  //     id_tipo_usuario int not null auto_increment,
+  //     tipo_usuario varchar (25) default null,
+  //     inscricao_usuario varchar (155) default null,
+  //     status_tipo_usuario int default '1',
+  //     primary key (id_tipo_usuario)
+  //   )`)
 
-    await db.end()
+  //   await db.end()
 
       
-    console.log("Tabelas Criadas")
-  }
+  //   console.log("Tabelas Criadas")
+  // }
 
 
   creatTables()
