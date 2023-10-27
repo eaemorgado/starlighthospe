@@ -17,6 +17,9 @@ const db = mysql.createConnection({
   });
 
 
+
+
+
   // async function creatTables(){
   //   await db.connect()
 
@@ -369,16 +372,21 @@ router.post("/cadastrar",
     }
     const id = uuid.v4();
 
-    const query = 'INSERT INTO usuarios (id, nome, usuario, email, senha) VALUES (?, ?, ?, ?, ?)';
-    const values = [id, dadosForm.nome, dadosForm.usuario, dadosForm.email, dadosForm.senha];
-
-    db.query(query, values, (err, result) => {
-        if (err) {
-          console.error('Erro ao inserir dados no banco de dados:', err);
-        } else {
-          console.log('Dados inseridos com sucesso!');
-        }
-      });
+    db.query(
+      "INSERT INTO usuarios SET ?",
+      dadosForm,
+      function (error, results, fields) {
+        if (error) throw error;
+        // Neat!
+      }
+    );
+    // db.query(query, values, (err, result) => {
+    //     if (err) {
+    //       console.error('Erro ao inserir dados no banco de dados:', err);
+    //     } else {
+    //       console.log('Dados inseridos com sucesso!');
+    //     }
+    //   });
 
       
 
