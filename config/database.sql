@@ -1,5 +1,5 @@
 
--- DROP DATABASE `starlight` ;
+
 CREATE DATABASE `starlight`;
 USE `starlight`;
 

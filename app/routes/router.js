@@ -9,10 +9,19 @@ var salt = bcrypt.genSaltSync(10);
 
 
 const db = mysql.createConnection({
-  host: "0.0.0.0",
-  port: 3333
+    host: "starlight.mssql.somee.com",
+    user: "eaemorgado_SQLLogin_1",
+    password: "9hfynqcuh8",
+    database: "starlight  ",
+    port: 3333
   });
 
+  db.connect((err) => {
+    if (err) {
+      throw err;
+    }
+    console.log('Conectado ao MySQL');
+  });
 
 
   var { verificarUsuAutenticado, limparSessao, gravarUsuAutenticado, verificarUsuAutorizado } = require("../models/autenticador_middleware");
