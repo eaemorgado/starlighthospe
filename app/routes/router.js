@@ -9,43 +9,12 @@ var salt = bcrypt.genSaltSync(10);
 
 
 const db = mysql.createConnection({
-    host: "dpg-cktfaneb0mos73ept8mg-a",
+    host: "ddb4free.net",
     user: "starlight_user",
-    password: "y5SwiPkE70qrECjDxVDMf37rh2SzlH4b",
+    password: "starlight1234",
     database: "starlight",
-    port: 5432
+    port: 3306
   });
-
-  const createTableQuery = `
-CREATE TABLE usuarios (
-  id VARCHAR(255) primary key,
-  nome VARCHAR(255),
-  usuario VARCHAR(255) NOT NULL,
-  email VARCHAR(255) NOT NULL,
-  senha VARCHAR(255) NOT NULL,
-  id_tipo_usuario int not null default '1'
-);
-
-CREATE TABLE noticia (
-  id_noticia varchar(200) primary key,
-  titulo_noticia varchar(255),
-  descricao_noticia varchar(255),
-  data_noticia varchar (60),
-  situacao_noticia varchar (60)
-
-);
-
-  create table tipo_usuario (
-	id_tipo_usuario int not null auto_increment,
-	tipo_usuario varchar (25) default null,
-  inscricao_usuario varchar (155) default null,
-  status_tipo_usuario int default '1',
-  primary key (id_tipo_usuario)
-    
-);	
-
-
-`;
 
 
 
