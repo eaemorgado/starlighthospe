@@ -1,7 +1,7 @@
 var express = require("express");
 const { body } = require("express-validator");
 var router = express.Router();
-var mysql = require("mysql");
+var mysql = require("mysql2");
 const uuid = require('uuid');
 var bcrypt = require("bcryptjs");
 var salt = bcrypt.genSaltSync(10);
@@ -372,14 +372,9 @@ router.post("/cadastrar",
     }
     const id = uuid.v4();
 
-    db.query(
-      "INSERT INTO usuarios SET ?",
-      dadosForm,
-      function (error, results, fields) {
-        if (error) throw error;
-        // Neat!
-      }
-    );
+    const query = 'INSERT INTO usuarios (id, nome, usuario, email, senha) VALUES (?, ?, ?, ?, ?)';
+    const values = [id, dadosForm.nome, dadosForm.usuario, dadosForm.email, dadosForm.senha];
+
     // db.query(query, values, (err, result) => {
     //     if (err) {
     //       console.error('Erro ao inserir dados no banco de dados:', err);
